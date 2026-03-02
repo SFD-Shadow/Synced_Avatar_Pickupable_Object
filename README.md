@@ -32,7 +32,9 @@ The prefab spawns at (0, 0, 0) but can be parrented/constrainted to fit individu
 This system uses a pickupable and poseable Physbone for the position of the object.  
 For the rotation, it uses 2 physbones that rely on collision with the avatar's hand & finger colliders.  
 > [!IMPORTANT]
-> Differences between avatar's hand/finger colliders, as well as size difference between avatars can cause issues or desync!
+> Differences between avatar's hand/finger colliders, as well as size difference between avatars can cause issues or desync!  
+>
+> This system also only uses one hand to determine rotation, so avoid using both hands initially to again avoid issues and desync  
 
 One Physbone handels the Z and Y rotation, and the other handels the X rotation.  
-The way the colliders are placed and formatted allow for the hand/finger colliders of the avatar to determine the rotation of the object by rotation the physbones, and without the use of parameters or 'syncing'  
+The way the colliders are placed and formatted, allow for the hand/finger colliders of the avatar to determine the rotation of the object by rotating the physbones, and without the use of parameters or 'syncing'  
