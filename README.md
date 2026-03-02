@@ -18,14 +18,14 @@ The prefab spawns at (0, 0, 0) but can be parrented/constrainted to fit individu
 ㅤㅤ▼ Parrent_M1  
 ㅤㅤㅤ▼ Grab  
 ㅤㅤㅤㅤ▼ Space  
-ㅤㅤㅤㅤㅤYour Object  
+ㅤㅤㅤㅤㅤㅤYour Object  
 ▼ Rotation  
-ㅤRotationConstraint  
+ㅤㅤRotationConstraint  
 ㅤ▼ Rotation Phys  
 ㅤㅤ▼ Rotation Phys Y  
-ㅤㅤㅤParrent_RY  
+ㅤㅤㅤㅤParrent_RY  
 ㅤㅤㅤ▼ Rotation Phys X  
-ㅤㅤㅤㅤParrent_RX2
+ㅤㅤㅤㅤㅤParrent_RX2
 ```
 
 ### How it Works
