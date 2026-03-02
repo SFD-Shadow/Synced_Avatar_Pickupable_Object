@@ -5,6 +5,8 @@ Object can be picked up and rotated by all players, local and remote.
 This system includes a modular prefab, FX controller, and parameters list.  
 The prefab spawns at (0, 0, 0) but can be parrented/constrainted and positioned/rotated/scaled to fit individual needs.  
 
+## [Download Here](https://github.com/SFD-Shadow/Synced_Avatar_Pickupable_Object/releases/tag/v1.0.0)
+
 ### Uses
 - 1 Total Memory/Parameters
 - 3 Physbones
