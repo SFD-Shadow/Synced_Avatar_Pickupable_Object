@@ -29,3 +29,7 @@ The prefab spawns at (0, 0, 0) but can be parrented/constrainted to fit individu
 ```
 
 ### How it Works
+This system uses a pickupable and poseable Physbone for the position of the object.  
+For the rotation, it uses 2 physbones that rely on collision with the avatar's hand & finger colliders.  
+> [!IMPORTANT]
+> Differences between avatar's hand/finger collider, as well as size difference can cause issues or desync
