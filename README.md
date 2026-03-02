@@ -12,18 +12,18 @@ The prefab spawns at (0, 0, 0) but can be parrented/constrainted to fit individu
 - 3 VRC Constraints
 
 ### Hierarchy  
-▼SFD_ObjectPickup  
-ㅤ▼Main  
-ㅤㅤ▼Parrent_M1  
-ㅤㅤㅤ▼Grab  
-▌▌▌▌▼Space  
-▌▌▌▌▌Your Object  
-▼Rotation  
-▌RotationConstraint  
-▌▼Rotation Phys  
-▌▌▼Rotation Phys Y  
-▌▌▌Parrent_RY  
-▌▌▌▼Rotation Phys X  
-▌▌▌▌Parrent_RX2  
+▼ SFD_ObjectPickup  
+ㅤ▼ Main  
+ㅤㅤ▼ Parrent_M1  
+ㅤㅤㅤ▼ Grab  
+ㅤㅤㅤㅤ▼ Space  
+ㅤㅤㅤㅤㅤYour Object  
+▼ Rotation  
+ㅤRotationConstraint  
+ㅤ▼ Rotation Phys  
+ㅤㅤ▼ Rotation Phys Y  
+ㅤㅤㅤParrent_RY  
+ㅤㅤㅤ▼ Rotation Phys X  
+ㅤㅤㅤㅤParrent_RX2  
 
 ### How it Works
