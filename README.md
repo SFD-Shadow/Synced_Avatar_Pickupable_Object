@@ -13,9 +13,9 @@ The prefab spawns at (0, 0, 0) but can be parrented/constrainted to fit individu
 
 ### Hierarchy  
 ▼SFD_ObjectPickup  
- ▼Main  
-  ▼Parrent_M1  
-   ▼Grab  
+ㅤ▼Main  
+ㅤㅤ▼Parrent_M1  
+ㅤㅤㅤ▼Grab  
 ▌▌▌▌▼Space  
 ▌▌▌▌▌Your Object  
 ▼Rotation  
