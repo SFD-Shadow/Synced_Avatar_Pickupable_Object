@@ -3,7 +3,7 @@ A system for adding a synced pickupable object to your VRChat avatar.
 Object can be picked up and rotated by all players, local and remote.  
 
 This system includes a modular prefab, FX controller, and parameters list.  
-The prefab spawns at (0, 0, 0) but can be parrented/constrainted to fit individual needs.  
+The prefab spawns at (0, 0, 0) but can be parrented/constrainted and positioned/rotated/scaled to fit individual needs.  
 
 ### Uses
 - 1 Total Memory/Parameters
@@ -37,4 +37,4 @@ For the rotation, it uses 2 physbones that rely on collision with the avatar's h
 > This system also only uses one hand to determine rotation, so avoid using both hands when initially picking up the object.
 
 One Physbone handels the Z and Y rotation, and the other handels the X rotation.  
-The way the colliders are placed and formatted, allow for the hand/finger colliders of the avatar to determine the rotation of the object by rotating the physbones, and without the use of parameters or 'syncing'  
+The way the colliders are placed and formatted, allow for the hand/finger colliders of the avatar to determine the rotation of the object by rotating the physbones, and without the use of any parameters or 'syncing'  
