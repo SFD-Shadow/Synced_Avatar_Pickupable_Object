@@ -34,7 +34,7 @@ For the rotation, it uses 2 physbones that rely on collision with the avatar's h
 > [!IMPORTANT]
 > Differences between avatar's hand/finger colliders, as well as size difference between avatars can cause issues or desync!  
 >
-> This system also only uses one hand to determine rotation, so avoid using both hands initially to again avoid issues and desync  
+> This system also only uses one hand to determine rotation, so avoid using both hands when initially picking up the object.
 
 One Physbone handels the Z and Y rotation, and the other handels the X rotation.  
 The way the colliders are placed and formatted, allow for the hand/finger colliders of the avatar to determine the rotation of the object by rotating the physbones, and without the use of parameters or 'syncing'  
