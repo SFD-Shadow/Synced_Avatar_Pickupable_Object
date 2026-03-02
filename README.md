@@ -11,19 +11,19 @@ The prefab spawns at (0, 0, 0) but can be parrented/constrainted to fit individu
 - 1 Contact Reciever
 - 3 VRC Constraints
 
-### Hierarchy
-▼SFD_ObjectPickup
-▼Main
-▼Parrent_M1
-▌▌▌▼Grab
-▌▌▌▌▼Space
-▌▌▌▌▌Your Object
-▼Rotation
-▌RotationConstraint
-▌▼Rotation Phys
-▌▌▼Rotation Phys Y
-▌▌▌Parrent_RY
-▌▌▌▼Rotation Phys X
-▌▌▌▌Parrent_RX2
+### Hierarchy  
+▼SFD_ObjectPickup  
+ ▼Main  
+  ▼Parrent_M1  
+   ▼Grab  
+▌▌▌▌▼Space  
+▌▌▌▌▌Your Object  
+▼Rotation  
+▌RotationConstraint  
+▌▼Rotation Phys  
+▌▌▼Rotation Phys Y  
+▌▌▌Parrent_RY  
+▌▌▌▼Rotation Phys X  
+▌▌▌▌Parrent_RX2  
 
 ### How it Works
