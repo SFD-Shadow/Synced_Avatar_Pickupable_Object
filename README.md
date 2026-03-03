@@ -1,6 +1,7 @@
 # Synced Avatar Pickupable Object
 A system for adding a synced pickupable object to your VRChat avatar.  
 Object can be picked up and rotated by all players, local and remote.  
+![SAPO_Preview](https://github.com/user-attachments/assets/893108e5-1e87-42db-85ba-39d11d72b2da)
 
 This system includes a modular prefab, FX controller, and parameters list.  
 The prefab spawns at (0, 0, 0) but can be parrented/constrainted and positioned/rotated/scaled to fit individual needs.  
